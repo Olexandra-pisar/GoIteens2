@@ -14,7 +14,7 @@ app = Flask(__name__)
 
 @app.route("/base")
 def base():
-    return render_template("base.html", title="Python course")
+    return render_template("base.html", title="Python Course")
 
 
 
